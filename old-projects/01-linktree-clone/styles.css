@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to right top, rgba(45, 119, 255, 0.767), rgb(22, 0, 87));
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-box {
+    display: grid;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, white, rgb(224, 245, 255));
+    width: 90%;
+    max-width: 500px;
+    height: 700px;
+    justify-items: center;
+    align-content: start;
+}
+
+.profile-picture {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -15px;   
+}
+
+.display-name {
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-bottom: 2px solid grey;
+    display: inline-block;
+}
+
+.description {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.link-1, .link-2, .link-3, .link-4, .link-5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(to top right, rgb(255, 75, 210), rgb(20, 161, 255));
+}
+
+
+.link-buttons{
+    display: grid;
+    gap: 10px;
+    width: 90%;
+}
+
+.link-buttons button{
+    border-radius: 15px;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+/* dont use padding to widen buttons */
