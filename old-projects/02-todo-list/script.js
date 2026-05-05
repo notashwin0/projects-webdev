@@ -24,3 +24,4 @@ myButton.addEventListener('click', addTask)
 // 5. Use CSS
 // 6. Research Local Storage 
 // 7. (?) Research if this uses forms
+// ?
